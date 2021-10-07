@@ -24,6 +24,66 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Summary Paragraph 
 
+```{r}
+library(tidyverse)
+library(tidytext)
+library(pdftools)
+library(tidyverse)
+library(epubr)
+library(scales)
+library(ggthemes)
+
+```
+
+
+```{r}
+barnard_txt <- data_frame(text = read_file("BM AM LM P4.txt"),author = "A M Barnard", title = "Behind A Mask, Or A Woman’s Power")
+```
+
+```{r}
+bell_txt <- data_frame(text = read_file("CB JE P1.txt"),author = "Currer Bell", title = "Jane Eyre")
+```
+
+```{r}
+dostoevsky_txt <- data_frame(text = read_file("CP FD M1.txt"),author = "Fyodor Dostoevsky", title = "Crime and Punishment")
+```
+
+```{r}
+sand_txt <- data_frame(text = read_file("DP. GS P3.txt"),author = "George Sand", title = "The Devil's Pool")
+```
+
+```{r}
+mulock_txt <- data_frame(text = read_file("FB DM F3.txt"),author = "Dinah Maria Mulock", title = "The Fairy Book")
+```
+
+```{r}
+eliot_txt <- data_frame(text = read_file("M GE P2.txt"),author = "George Eliot", title = "Middlemarch")
+```
+
+```{r}
+melville_txt <- data_frame(text = read_file("MB HM M4.txt"),author = "Herman Melville", title = "Moby-Dick")
+```
+
+```{r}
+woolf_txt <- data_frame(text = read_file("MT VW F2.txt"),author = "Virginia Woolf", title = "Monday or Tuesday")
+```
+
+```{r}
+gaskell_txt <- data_frame(text = read_file("NS EG F1.txt"),author = "Elizabeth Gaskell", title = "North and South")
+```
+
+```{r}
+austen_txt <- data_frame(text = read_file("PP JA F4.txt"),author = "Jane Austen", title = "Pride and Prejudice")
+```
+
+```{r}
+dickens_txt <- data_frame(text = read_file("TTC CD M3.txt"),author = "Charles Dickens", title = "A Tale of Two Cities")
+```
+
+```{r}
+hugo_txt <- data_frame(text = read_file("LM VH M2.txt"),author = "Victor Hugo", title = "Les Misérables")
+```
+
 
 ## Sentiment Analysis 
 
