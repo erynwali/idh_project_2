@@ -1,5 +1,5 @@
 ---
-title: 'Project 2: Sentiment Analysis + NER'
+title: 'Project 2: R you having fun?'
 author: "Eryn Wali (GL), Krisha Vaishnav, Ashita Kumar"
 date: "07/10/2021"
 output: html_document
@@ -9,22 +9,30 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Title 
-
-# Introduction + Research Question 
-
-# Research Hypothesis 
-
-# Corpus Description 
-
-# Summary Paragraph 
-
-# Sentiment Analysis 
-
-# Named Entity Recognition 
+## Title 
 
 
+## Introduction + Research Question 
 
-# Conclusion 
 
-# Reflection 
+## Research Hypothesis 
+> There is a statistical difference in the way gender and themes are portrayed when female authors who write under male pseudonyms are compared with their female and male author counterparts.
+
+
+## Corpus Description 
+
+
+## Summary Paragraph 
+
+
+## Sentiment Analysis 
+
+
+## Named Entity Recognition 
+
+
+## Conclusion 
+
+
+## Reflection 
+
