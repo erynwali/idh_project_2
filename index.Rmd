@@ -1,6 +1,6 @@
 ---
 title: 'Project 2: Sentiment Analysis + NER'
-author: "Eryn Wali"
+author: "Eryn Wali (GL), Krisha Vaishnav, Ashita Kumar"
 date: "07/10/2021"
 output: html_document
 ---
@@ -22,6 +22,8 @@ knitr::opts_chunk$set(echo = TRUE)
 # Sentiment Analysis 
 
 # Named Entity Recognition 
+
+
 
 # Conclusion 
 
