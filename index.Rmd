@@ -1,0 +1,28 @@
+---
+title: 'Project 2: Sentiment Analysis + NER'
+author: "Eryn Wali"
+date: "07/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Title 
+
+# Introduction + Research Question 
+
+# Research Hypothesis 
+
+# Corpus Description 
+
+# Summary Paragraph 
+
+# Sentiment Analysis 
+
+# Named Entity Recognition 
+
+# Conclusion 
+
+# Reflection 
