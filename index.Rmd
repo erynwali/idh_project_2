@@ -90,6 +90,43 @@ hugo_txt <- data_frame(text = read_file("LM VH M2.txt"),author = "Victor Hugo", 
 
 ## Named Entity Recognition 
 
+```{r}
+install.packages("rJava")
+install.packages("openNLP")
+install.packages("NLP")
+```
+```{r echo=TRUE, eval= FALSE, error=FALSE, warning=FALSE, message=FALSE}
+install.packages("openNLPmodels.en", dependencies=TRUE, repos = "http://datacube.wu.ac.at/")
+```
+
+```{r echo=TRUE, results='hide', message=FALSE}
+#NLP Libraries
+library(rJava)
+library(openNLP)
+library(NLP)
+```
+
+```{r}
+#Tidy data manipulation
+library(stringr)
+library(tidyr)
+library(readr)
+library(stringi)
+library(textclean)
+library(sqldf)
+```
+
+```{r}
+#Graphics library
+library(ggiraphExtra)
+library(ggplot2)
+library(RColorBrewer)
+library(scales)
+```
+
+```{r}
+
+```
 
 ## Conclusion 
 
