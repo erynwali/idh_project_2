@@ -46,14 +46,25 @@ library(ggiraphExtra)
 library(ggplot2)
 library(RColorBrewer)
 library(scales)
-
 ```
 
 ```{r}
-library(tidyverse) #Used for Tidy things
-library(humaniformat) # used to convert from First Name Last Name to Last Name, First Name
-library(tidytext)
+male_authors <-
+  gutenberg_download(c(2554, 135, 98, 2701),
+                     mirror = "http://mirrors.xmission.com/gutenberg/",
+                     meta_fields = c("author", "title"))
 ```
 
+```{r}
+female_authors <-
+  gutenberg_download(c(4276, 29220, 19734, 1342),
+                     mirror = "http://mirrors.xmission.com/gutenberg/",
+                     meta_fields = c("author", "title"))
+```
 
-
+```{r}
+pen_authors <-
+  gutenberg_download(c(1260, 145, 21993, 8677),
+                     mirror = "http://mirrors.xmission.com/gutenberg/",
+                     meta_fields = c("author", "title"))
+```
