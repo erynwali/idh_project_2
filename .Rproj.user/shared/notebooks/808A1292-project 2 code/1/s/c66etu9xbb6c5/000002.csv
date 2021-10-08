@@ -1,0 +1,78 @@
+"0","install.packages(""rJava"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/erynw/OneDrive/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/rJava_1.0-5.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 1513151 bytes (1.4 MB)
+"
+"2","downloaded 1.4 MB
+
+"
+"1","package ‘rJava’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\erynw\AppData\Local\Temp\RtmpKkTxbJ\downloaded_packages"
+"1",""
+"1","
+"
+"0","install.packages(""openNLP"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/erynw/OneDrive/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/openNLP_0.2-7.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 49559 bytes (48 KB)
+"
+"2","downloaded 48 KB
+
+"
+"1","package ‘openNLP’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\erynw\AppData\Local\Temp\RtmpKkTxbJ\downloaded_packages"
+"1",""
+"1","
+"
+"0","install.packages(""NLP"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/erynw/OneDrive/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/NLP_0.2-1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 391631 bytes (382 KB)
+"
+"2","downloaded 382 KB
+
+"
+"1","package ‘NLP’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\erynw\AppData\Local\Temp\RtmpKkTxbJ\downloaded_packages"
+"1",""
+"1","
+"

@@ -68,3 +68,28 @@ pen_authors <-
                      mirror = "http://mirrors.xmission.com/gutenberg/",
                      meta_fields = c("author", "title"))
 ```
+
+```{r pre_clean_corpus}
+male_corpus_clean <- male_authors %>%
+  filter(text != "") %>%
+  mutate(text = str_replace_all(text, "_", " ")) %>%
+  mutate(text = replace_contraction(text)) %>%
+  mutate(text = replace_curly_quote(text))
+```
+
+```{r pre_clean_corpus}
+female_corpus_clean <- female_authors %>%
+  filter(text != "") %>%
+  mutate(text = str_replace_all(text, "_", " ")) %>%
+  mutate(text = replace_contraction(text)) %>%
+  mutate(text = replace_curly_quote(text))
+```
+
+```{r pre_clean_corpus}
+pen_corpus_clean <- pen_authors %>%
+  filter(text != "") %>%
+  mutate(text = str_replace_all(text, "_", " ")) %>%
+  mutate(text = replace_contraction(text)) %>%
+  mutate(text = replace_curly_quote(text))
+```
+

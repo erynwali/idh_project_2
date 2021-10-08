@@ -1,0 +1,4 @@
+"0","pen_authors <-"
+"0","  gutenberg_download(c(1260, 145, 21993, 8677),"
+"0","                     mirror = ""http://mirrors.xmission.com/gutenberg/"","
+"0","                     meta_fields = c(""author"", ""title""))"

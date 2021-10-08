@@ -1,0 +1,4 @@
+"0","male_authors <-"
+"0","  gutenberg_download(c(2554, 135, 98, 2701),"
+"0","                     mirror = ""http://mirrors.xmission.com/gutenberg/"","
+"0","                     meta_fields = c(""author"", ""title""))"
