@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Corpus Description 
-
+We created a corpus where we picked an equal number of works by three categories of authors. The corpus wasn’t exhaustive; it was manually curated making subjective judgments. We chose 4 books each from female authors who wrote under male pseudonyms, female authors, and male authors. As we were focusing on finding the counterparts of pen name authors, we chose counterparts who wrote in the same century as them or even whose work was compared with them. The works we selected by each author were their most famous works present on Gutenberg. 
 
 ## Summary Paragraph 
 
