@@ -3,7 +3,7 @@
     "path": "C:/Users/erynw/OneDrive/Desktop/intro to digital humanities/idh_project_2/project 2 code.Rmd",
     "project_path": "project 2 code.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "19131716",
     "contents": "",
     "dirty": false,
     "created": 1633628016999.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "59,6",
-        "scrollLine": "48"
+        "cursorPosition": "57,0",
+        "scrollLine": "42"
     },
     "folds": "",
-    "lastKnownWriteTime": 1633704452,
+    "lastKnownWriteTime": 1633705118,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1633704452055,
+    "last_content_update": 1633705118158,
     "read_only": false,
     "read_only_alternatives": []
 }

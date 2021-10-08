@@ -57,9 +57,3 @@ library(tidytext)
 
 
 
-```{r}
-corpus <-
-  gutenberg_download(c(1400, 98),
-                     mirror = "http://mirrors.xmission.com/gutenberg/",
-                     meta_fields = c("author", "title"))
-```
