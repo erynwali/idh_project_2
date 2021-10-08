@@ -1,0 +1,70 @@
+"0","#NLP Libraries"
+"0","library(rJava)"
+"0","library(openNLP)"
+"0","library(NLP)"
+"0",""
+"0",""
+"0","#Tidy data manipulation"
+"0","library(stringr)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(tidyr)"
+"0","library(tidytext)"
+"0","library(readr)"
+"0","library(stringi)"
+"0","library(textclean)"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"0","#Corpus ingest"
+"0","library(gutenbergr)"
+"0",""
+"0","#Helper library"
+"0","library(sqldf)"
+"2","Loading required package: gsubfn
+"
+"2","Loading required package: proto
+"
+"2","Loading required package: RSQLite
+"
+"0","#Graphics library"
+"0","library(ggiraphExtra)"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"0","library(ggplot2)"
+"2","
+Attaching package: ‘ggplot2’
+
+"
+"2","The following object is masked from ‘package:NLP’:
+
+    annotate
+
+"
+"0","library(RColorBrewer)"
+"0","library(scales)"
+"2","
+Attaching package: ‘scales’
+
+"
+"2","The following object is masked from ‘package:readr’:
+
+    col_factor
+
+"

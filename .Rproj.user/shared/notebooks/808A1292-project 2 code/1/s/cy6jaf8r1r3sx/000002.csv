@@ -1,0 +1,5 @@
+"0","female_corpus_clean <- female_authors %>%"
+"0","  filter(text != """") %>%"
+"0","  mutate(text = str_replace_all(text, ""_"", "" "")) %>%"
+"0","  mutate(text = replace_contraction(text)) %>%"
+"0","  mutate(text = replace_curly_quote(text))"

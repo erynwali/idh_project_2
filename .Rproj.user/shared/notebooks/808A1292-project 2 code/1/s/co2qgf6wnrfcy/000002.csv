@@ -1,0 +1,57 @@
+"0","install.packages(""openNLPmodels.en"", dependencies=TRUE, repos = ""http://datacube.wu.ac.at/"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/erynw/OneDrive/Documents/R/win-library/4.1’
+(as ‘lib’ is unspecified)
+"
+"2","installing the source package ‘openNLPmodels.en’
+
+"
+"2","trying URL 'http://datacube.wu.ac.at/src/contrib/openNLPmodels.en_1.5-1.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 77794529 bytes (74.2 MB)
+"
+"2","downloaded 74.2 MB
+
+"
+"1","* installing *source* package 'openNLPmodels.en' ...
+"
+"1","** using staged installation
+"
+"1","** inst
+"
+"1","** help
+"
+"1","No man pages found in package  'openNLPmodels.en' 
+"
+"1","*** installing help indices
+"
+"1","** building package indices
+"
+"1","** testing if installed package can be loaded from temporary location
+"
+"1","*** arch - i386
+"
+"1","*** arch - x64
+"
+"1","** testing if installed package can be loaded from final location
+"
+"1","*** arch - i386
+"
+"1","*** arch - x64
+"
+"1","** testing if installed package keeps a record of temporary installation path
+"
+"1","* DONE (openNLPmodels.en)
+"
+"2","
+"
+"2",""
+"2","The downloaded source packages are in
+	‘C:\Users\erynw\AppData\Local\Temp\RtmpKkTxbJ\downloaded_packages’"
+"2",""
+"2","
+"

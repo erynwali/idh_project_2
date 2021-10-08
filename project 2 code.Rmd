@@ -49,47 +49,48 @@ library(scales)
 ```
 
 ```{r}
-male_authors <-
-  gutenberg_download(c(2554, 135, 98, 2701),
+corpus <-
+  gutenberg_download(c(2554, 135, 98, 2701, 4276, 29220, 19734, 1342, 1260, 145, 21993, 8677),
                      mirror = "http://mirrors.xmission.com/gutenberg/",
                      meta_fields = c("author", "title"))
 ```
 
-```{r}
-female_authors <-
-  gutenberg_download(c(4276, 29220, 19734, 1342),
-                     mirror = "http://mirrors.xmission.com/gutenberg/",
-                     meta_fields = c("author", "title"))
-```
 
-```{r}
-pen_authors <-
-  gutenberg_download(c(1260, 145, 21993, 8677),
-                     mirror = "http://mirrors.xmission.com/gutenberg/",
-                     meta_fields = c("author", "title"))
-```
 
 ```{r pre_clean_corpus}
-male_corpus_clean <- male_authors %>%
+corpus_clean <- corpus %>%
   filter(text != "") %>%
   mutate(text = str_replace_all(text, "_", " ")) %>%
   mutate(text = replace_contraction(text)) %>%
   mutate(text = replace_curly_quote(text))
 ```
 
-```{r pre_clean_corpus}
-female_corpus_clean <- female_authors %>%
-  filter(text != "") %>%
-  mutate(text = str_replace_all(text, "_", " ")) %>%
-  mutate(text = replace_contraction(text)) %>%
-  mutate(text = replace_curly_quote(text))
+```{r create_strings}
+corpus_text <- corpus_clean %>%
+  group_by(title) %>%
+  mutate(text = paste(as.character(text), collapse = " ")) %>%
+  distinct() %>%
+  ungroup()
 ```
 
-```{r pre_clean_corpus}
-pen_corpus_clean <- pen_authors %>%
-  filter(text != "") %>%
-  mutate(text = str_replace_all(text, "_", " ")) %>%
-  mutate(text = replace_contraction(text)) %>%
-  mutate(text = replace_curly_quote(text))
+
+```{r create_nested_string}
+corpus_text_str <- corpus_text %>%
+  group_by(title) %>%
+  mutate(text = list(as.String(text)))
 ```
+
+```{r initiate_pipeline}
+#set pipeline
+wordAnnotator <- Maxent_Word_Token_Annotator(language = "en")
+sentenceAnnotator <- Maxent_Sent_Token_Annotator(language = "en")
+characterAnnotatorEN <- Maxent_Entity_Annotator(language = "en", kind = "person")
+locationAnnotatorEN <- Maxent_Entity_Annotator(language = "en", kind = "location")
+
+pipeline <- list(sentenceAnnotator,
+                 wordAnnotator,
+                 characterAnnotatorEN,
+                 locationAnnotatorEN)
+```
+
 
