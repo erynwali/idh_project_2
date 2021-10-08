@@ -1,0 +1,13 @@
+"0","#NLP Libraries"
+"0","library(rJava)"
+"0","library(openNLP)"
+"0","library(NLP)"
+"2","
+Attaching package: ‘NLP’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    annotate
+
+"

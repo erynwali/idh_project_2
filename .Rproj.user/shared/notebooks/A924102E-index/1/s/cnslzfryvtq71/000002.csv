@@ -1,0 +1,18 @@
+"0","#Graphics library"
+"0","library(ggiraphExtra)"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","
+Attaching package: ‘ggiraphExtra’
+
+"
+"2","The following object is masked from ‘package:ggthemes’:
+
+    theme_clean
+
+"
+"0","library(ggplot2)"
+"0","library(RColorBrewer)"
+"0","library(scales)"
