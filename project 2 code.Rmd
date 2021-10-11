@@ -330,7 +330,7 @@ radar_facet <- entities_matches_sentiment %>%
   summarise(across(anger:trust, sum)) %>%
   mutate(total = rowSums(across(where(is.numeric))))  %>%
   arrange(desc(total)) %>%
-  head(5)  %>% #Change number to include more or fewer entities
+  head(20)  %>% #Change number to include more or fewer entities
   mutate(across(anger:trust, .fns = ~ round((. / total) * 100))) %>%
   select(-total,-kind)
 
