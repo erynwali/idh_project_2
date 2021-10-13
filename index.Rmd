@@ -75,7 +75,7 @@ To solve this, we tried splitting the entities according to each author so we co
 ![Error Message](\Users\erynw\OneDrive\Desktop\intro to digital humanities\idh_project_2\error.jpeg)
 All in all, a very tedious, confusing, and time-heavy process.
 
-However, we did like the fact that we could control what happened with the data - we could plot the graphs we wanted with the amount of data we wanted. 
+However, we did like the fact that we could control what happened with the data - we could plot the graphs we wanted with the amount of data we wanted.
 
 ## Conclusion 
 Although a few stark differences were noticed in the themes and characters, there were still many similarities that existed between male and pen authors, and female and pen authors. With the themes, we could say that pen authors wrote in a more negative light as compared to the female authors.
