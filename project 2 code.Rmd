@@ -249,7 +249,7 @@ write_csv(full_join_df, "entities_raw.csv")
 ``` 
 
 ```{r}
-clean_entities <- read.csv("entities_cleaned.csv")
+clean_entities <- read.csv("alcott_cleaned.csv")
 ``` 
 
 ```{r unnest}
